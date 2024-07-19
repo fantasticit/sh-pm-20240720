@@ -11,7 +11,7 @@ mdc: true
 
 # ProseMirror 与云文档
 
-上海・2024.07.24
+上海・2024.07.20
 
 [@fantasticit](https://github.com/fantasticit)
 
