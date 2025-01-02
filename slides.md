@@ -813,52 +813,6 @@ class LWWRegister<T> {
 <!-- 第 32 页 -->
 ---
 
-## Yjs 的使用
-
-https://github.com/tldraw/tldraw-yjs-example/blob/main/src/useYjsStore.ts
-
-
-<!-- 第 33 页 -->
----
-
-# think
-
-https://github.com/fantasticit/think
-
-云策文档是一款开源知识管理工具。通过独立的知识库空间，结构化地组织在线协作文档，实现知识的积累与沉淀，促进知识的复用与流通。
-
-<!-- 第 34 页 -->
----
-
-## 功能设计
-
-<img src="./asstes/14-think-feature.png" class="rounded shadow" style="width: 500px" />
-
-<!-- 第 35 页 -->
----
-
-## 编辑器设计
-
-<img src="./asstes/15-editor-kit.png" class="rounded shadow" style="width: 260px" />
-
-> 做点什么？
-
-<!-- 第 36 页 -->
----
-
-## 服务架构
-
-<img src="./asstes/16-server.png" class="rounded shadow" style="width: 260px" />
-
-`client` 访问时，每个请求中都需要包含 `appId` 和 `docId` 信息，请求到达负载均衡后，会基于一致性哈希算法，将请求分配到一个 `server` 上。
-
-后端也可动态增加新的服务器。增加新的服务器后，负载均衡会自动将请求按一致性哈希的算法，在新的服务器组中进行分配。
-
-整个集群对外提供一个统一协同编辑服务，这样的一个集群，可正常服务数十万规模的用户。
-
-<!-- 第 37 页 -->
----
-
 ## 参考资料
 
 1. https://github.com/ueberdosis/tiptap/tree/main
@@ -873,10 +827,5 @@ https://github.com/fantasticit/think
 10. https://discuss.yjs.dev/
 11. https://discuss.prosemirror.net/
 
-<!-- 第 38 页 -->
----
 
-<div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 3em;">
-  Q&A
-</div>
 
